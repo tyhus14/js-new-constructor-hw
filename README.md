@@ -40,7 +40,7 @@ var connor = new family ('Connor');
 var jay    = new family ('Jay');
 var kate   = new family ('Kate');
 
-// For a family member to move type name.moves()
+// For a family member to move type firstName.moves()
 
 
 ### Second Constructor
