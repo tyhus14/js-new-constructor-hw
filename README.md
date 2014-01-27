@@ -68,3 +68,4 @@ var anthony = new skydivingCrew ('Anthony');
 
 ### Link
 
+http://tyhus14.github.io/js-new-constructor-hw/
