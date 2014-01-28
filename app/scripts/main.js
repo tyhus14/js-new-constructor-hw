@@ -19,27 +19,27 @@ var trent  = new NflPlayer ('Trent Richardson', 24);
 
 
 
-function family (FirstName){
+function Family (firstName){
 	this.address = '22 Jackson Dr.';
 	this.LastName = 'Huston';
-	this.FirstName = FirstName || '????';
+	this.firstName = firstName || '????';
 	this.living = true;
 
 	this.moves = function(){
 		this.address = '33 Woodlane Drive';
-		return FirstName + ' now lives at 33 Woodlane Drive.';
+		return firstName + ' now lives at 33 Woodlane Drive.';
 	}
 }
 
-var tyler  = new family ('Tyler');
-var connor = new family ('Connor');
-var jay    = new family ('Jay');
-var kate   = new family ('Kate');
+var tyler  = new Family ('Tyler');
+var connor = new Family ('Connor');
+var jay    = new Family ('Jay');
+var kate   = new Family ('Kate');
 
 
 
 
-function skydivingCrew (name){
+function SkydivingCrew (name){
 	this.name = name || '????';
 	this.alive = true;
 	this.helmet = true;
@@ -52,10 +52,10 @@ function skydivingCrew (name){
 	}
 }
 
-var billy   = new skydivingCrew ('Billy');
-var george  = new skydivingCrew ('George');
-var jason   = new skydivingCrew ('Jason');
-var anthony = new skydivingCrew ('Anthony');
+var billy   = new SkydivingCrew ('Billy');
+var george  = new SkydivingCrew ('George');
+var jason   = new SkydivingCrew ('Jason');
+var anthony = new SkydivingCrew ('Anthony');
 
 
 
